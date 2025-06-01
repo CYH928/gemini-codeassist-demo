@@ -71,3 +71,21 @@ pip install -r requirements.txt
 3. Click the `Toggle view` to view the before and after.
 4. Then, click the `Preview in diff mode`, and click `Accept` changes code.
 
+---
+### Step 6. Enhance code readability for non-native English users
+1. Open the `main.py`
+2. Ask Gemini: `@main.py` `Add comments to main.py`
+But what if English is not your first language?
+3. Ask Gemini: `Add Spanish comments to main.py`
+4. Click the `Preview in diff mode`, and click `Decline` changes code.
+
+---
+### Step 7. Improve how the app looks
+1. Run `python3 main.py` in the terminal, click **Open Preview**.
+2. Open the `templates/index.html`
+3. Ask Gemini: `@index.html` `Make the CSS style for this HTML template look more better`
+4. Then, click `Accept changes` button.
+5. Refresh and back to the **Preview** web page
+6. After, ask the Gemini `@convert.html` `Make it template look similar to the` `@index.html`
+4. Click the `Preview in diff mode`, and click `Accept` changes code.
+4. Finally, click `Accept` button to save the chaged code.
