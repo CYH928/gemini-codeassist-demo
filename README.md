@@ -89,3 +89,30 @@ But what if English is not your first language?
 6. After, ask the Gemini `@convert.html` `Make it template look similar to the` `@index.html`
 4. Click the `Preview in diff mode`, and click `Accept` changes code.
 4. Finally, click `Accept` button to save the chaged code.
+
+---
+### Step 8. Enable the Tools
+1. Ask Gemini `@GoogleDocs` `List my docs`
+2. First time to use, will need the enable the **Tools**, Click the `Click here to enable GoogleDocs`
+3. The GoogleDocs part click the `Enable`, select the region `asia-east1 (Taiwan)`, and then click `Enable`
+4. Click `Connect`
+Successfully connected to the Tools.
+
+---
+### Step 9. Use the Google Docs Tool
+1. Ask Gemini `@GoogleDocs` `List my docs`
+2. Ask Gemini `@GoogleDocs` `Find docs titled` `<keyword>`(todo)
+3. Ask Gemini `@GoogleDocs` `Find docs containing` `<keyword>` (api)
+4. Ask Gemini `@GoogleDocs` `Summarize doc` `<docs_name>` (Todo Apps)
+5. Ask Gemini `@GoogleDocs` `Get doc` `<docs_name>` (Todo Apps)
+6. Click open the `main.py` and select `Current file` or use `@` to add the files / folders
+7. Ask Gemini `Generate the flask app with API`
+8. Run `python3 main.py` in terminal, and open Preview Page.
+9. Press **Ctrl+i**, and input /generate `Create some data`, and click `Accpet` button.
+
+---
+Step 8. Use the GitHub Tool
+1. Ask Gemini `@GitHub` `List my issues`
+2. Ask Gemini `@GitHub` `List top issues for project` `<project_name>` (ITP4115 EA)
+1. Ask Gemini `@GitHub` `List my open pull requests`
+1. Ask Gemini `@GitHub` `List my pull requests`
